@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# 載入 log 系統
+source "$(dirname "$0")/../utils/log.sh"
+start_log "$0"
+
 # 顏色定義
 RED='\033[0;31m'
 GREEN='\033[0;32m'

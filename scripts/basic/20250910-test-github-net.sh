@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# 載入 log 系統
+source "$(dirname "$0")/../utils/log.sh"
+start_log "$0"
+
 echo "=== GitHub 網路診斷 ==="
 echo "時間: $(date)"
 echo ""
